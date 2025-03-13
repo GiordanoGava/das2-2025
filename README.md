@@ -91,4 +91,22 @@ Best Practices for building solutions on AWS
         -> O que eu tenho (celular/pc/etc)
 
     + Permissão 
-        -> Quem está logado, apenas deve acessar aqyulo que deveria ver.
+        -> Quem está logado, apenas deve acessar aquilo que deveria ver.
+
+    + Princípio do privilégio mínimo
+        -> Dar o mínimo de permissões possíveis para o usuário
+
+
+# -> Recurso IAM
+
+    + O AWS Identity and Access Management (IAM) é um serviço da Amazon Web Services (AWS) que permite controlar o acesso aos recursos da AWS.
+
+    + Criação de contas IAM
+        -> Se cria acesso programatico através da Access Key e Secret Key
+        -> A conta tem que ter um tempo de duração
+        -> Use senhas fortes e complexas
+        -> Use senhas rotativas, de tempos em tempos troque a Access Key
+        -> Guarde as credenciais de forma segura
+    
+
+# ->  
