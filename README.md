@@ -107,6 +107,41 @@ Best Practices for building solutions on AWS
         -> Use senhas fortes e complexas
         -> Use senhas rotativas, de tempos em tempos troque a Access Key
         -> Guarde as credenciais de forma segura
+        -> Acessos programáticos
+            -> AWS Api Rest
+            -> AWS SDK
+            -> AWS CLI
     
 
-# ->  
+# -> Como dar permissões à usuários.
+        
+    + Mecanismo de permissionamento (RBAC - Role Base Access Control) 
+    + De acordo com meu papel (role), tenho certas permissões.
+
+
+# -> Lab Policy : Permissões
+            
+    + Existem algumas roles pré prontas, gerenciadas pela AWS
+        -> Identity-based
+        -> Usuários IAM: São identidades individuais associadas a uma pessoa ou processo. Os usuários podem ser atribuídos a políticas que concedem permissões específicas para acessar os serviços e recursos da AWS.
+        -> Grupos IAM: São coleções de usuários. As permissões são atribuídas a grupos, e qualquer usuário dentro do grupo herdará essas permissões.
+        -> Roles IAM: São funções atribuídas a entidades (usuários, serviços da AWS, etc.) que exigem permissões específicas. Em um laboratório, você pode ter uma role com permissões limitadas apenas ao acesso de recursos necessários para o exercício.
+
+
+# -> Resource-based
+    
+    + Políticas de Bucket S3: Permitem controlar quem pode acessar os arquivos no bucket.
+    + Políticas de IAM Role: Podem ser usadas para permitir que um serviço acesse recursos específicos, como permitir que um EC2 tenha permissão para acessar um bucket S3.
+
+    + Todo Bucket ao ser criado é privado, e deve-se tornar público.
+        -> Amazon Resource Name (Identificador único)
+        -> Permito que qualquer usuário possa listar objetos do meu bucket.
+
+
+# -> Tipos de armazenamento
+
+    + Block storage
+    + File storage
+        -> Estrutura hierarquica
+    + Object storage
+        -> Baseado em atributos de meta-data
