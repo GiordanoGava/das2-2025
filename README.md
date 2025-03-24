@@ -145,3 +145,23 @@ Best Practices for building solutions on AWS
         -> Estrutura hierarquica
     + Object storage
         -> Baseado em atributos de meta-data
+
+
+# -> Policy de Identidade 
+
+    + Controla o que usuários ou funções IAM podem fazer nos recursos da AWS.
+
+
+# -> Policy de Recurso 
+    
+    + Controla quem pode acessar e fazer o quê em um recurso específico (ex: bucket S3).
+
+
+# -> S3 
+    
+    + Serviço de armazenamento de objetos da AWS, usado para guardar e recuperar dados na nuvem.
+
+
+# -> CORS
+
+    + É uma proteção para os seus arquivos. 
