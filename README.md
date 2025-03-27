@@ -193,3 +193,7 @@ Best Practices for building solutions on AWS
                 }
             ]
 
+
+# -> Diga de documentação do githubCP
+
+    + https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet
