@@ -157,11 +157,39 @@ Best Practices for building solutions on AWS
     + Controla quem pode acessar e fazer o quê em um recurso específico (ex: bucket S3).
 
 
-# -> S3 
-    
+# -> S3
+
     + Serviço de armazenamento de objetos da AWS, usado para guardar e recuperar dados na nuvem.
 
+    + S3 - Ciclo de Vida:
+        -> Automatiza a movimentação/exclusão de objetos S3, otimizando custos.
+    + S3 - Versionamento:
+        -> Guarda múltiplas versões de arquivos S3, para recuperação de dados.
+    + S3 - CORS:
+        -> Permite que sites acessem arquivos S3 de outros domínios.
 
-# -> CORS
+        -> Isso é uma configuração de CORS:
 
-    + É uma proteção para os seus arquivos. 
+            [
+                {
+                    "AllowedHeaders": [
+                        "*"
+                    ],
+                    "AllowedMethods": [
+                        "GET",
+                        "PUT",
+                        "POST",
+                        "DELETE"
+                    ],
+                    "AllowedOrigins": [
+                        "http://127.0.0.1:5500"
+                    ],
+                    "ExposeHeaders": [
+                        "x-amz-server-side-encryption",
+                        "x-amz-request-id",
+                        "x-amz-id-2"
+                    ],
+                    "MaxAgeSeconds": 3000
+                }
+            ]
+
