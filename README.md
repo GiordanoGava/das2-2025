@@ -182,7 +182,7 @@ Best Practices for building solutions on AWS
                         "DELETE"
                     ],
                     "AllowedOrigins": [
-                        "http://127.0.0.1:5500"
+                        "http://127.0.0.1:5500" 
                     ],
                     "ExposeHeaders": [
                         "x-amz-server-side-encryption",
