@@ -197,3 +197,18 @@ Best Practices for building solutions on AWS
 # -> Diga de documentação do githubCP
 
     + https://docs.github.com/en/copilot/using-github-copilot/copilot-chat/github-copilot-chat-cheat-sheet
+
+
+# -> EC2 (Elastic Compute Cloud)
+
+    + Serviço de computação que permite criar e gerenciar instâncias (servidores virtuais) na AWS, com flexibilidade para escolher o tipo de instância e escalabilidade de recursos conforme a demanda.
+
+
+# -> EBS (Elastic Block Store)
+
+    + Armazenamento persistente e de alto desempenho para dados, utilizado por instâncias EC2. É independente das instâncias e permite fácil backup e escalabilidade.
+
+
+# -> AMI (Amazon Machine Image)
+
+    + Imagem configurada com sistema operacional e aplicativos necessários para inicializar instâncias EC2. Pode ser personalizada ou utilizar imagens padrão fornecidas pela AWS.
