@@ -212,3 +212,12 @@ Best Practices for building solutions on AWS
 # -> AMI (Amazon Machine Image)
 
     + Imagem configurada com sistema operacional e aplicativos necessários para inicializar instâncias EC2. Pode ser personalizada ou utilizar imagens padrão fornecidas pela AWS.
+
+
+# -> Placement
+
+    + Define como as instâncias EC2 são distribuídas: Cluster (agrupadas em um único rack), Spread (dispersas por racks) e Partition (isoladas em grupos).
+
+# -> EC2 Purchase Model 
+
+    + Modelos de compra de instâncias EC2: On-demand (pagamento por uso), Reserved (compromisso de longo prazo), Savings Plans (descontos flexíveis) e Spot (capacidade não utilizada a preço reduzido).
