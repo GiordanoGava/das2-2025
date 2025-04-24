@@ -221,3 +221,15 @@ Best Practices for building solutions on AWS
 # -> EC2 Purchase Model 
 
     + Modelos de compra de instâncias EC2: On-demand (pagamento por uso), Reserved (compromisso de longo prazo), Savings Plans (descontos flexíveis) e Spot (capacidade não utilizada a preço reduzido).
+
+# -> RDS
+
+    + É um serviço gerenciado da AWS que facilita a configuração, operação e escalabilidade de bancos de dados relacionais como MySQL, PostgreSQL, SQL Server, entre outros.
+
+# -> Bancos de dados relacionais
+
+    + Armazenam dados estruturados em tabelas com relações entre si, sendo ideais para aplicações que exigem consistência e integridade dos dados.
+
+# -> Bancos de dados não relacionais
+
+    + Como DynamoDB na AWS, são otimizados para grandes volumes de dados não estruturados, oferecendo flexibilidade e alta performance em aplicações escaláveis.
