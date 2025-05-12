@@ -218,18 +218,37 @@ Best Practices for building solutions on AWS
 
     + Define como as instâncias EC2 são distribuídas: Cluster (agrupadas em um único rack), Spread (dispersas por racks) e Partition (isoladas em grupos).
 
+
 # -> EC2 Purchase Model 
 
     + Modelos de compra de instâncias EC2: On-demand (pagamento por uso), Reserved (compromisso de longo prazo), Savings Plans (descontos flexíveis) e Spot (capacidade não utilizada a preço reduzido).
+
 
 # -> RDS
 
     + É um serviço gerenciado da AWS que facilita a configuração, operação e escalabilidade de bancos de dados relacionais como MySQL, PostgreSQL, SQL Server, entre outros.
 
+
 # -> Bancos de dados relacionais
 
     + Armazenam dados estruturados em tabelas com relações entre si, sendo ideais para aplicações que exigem consistência e integridade dos dados.
 
+
 # -> Bancos de dados não relacionais
 
     + Como DynamoDB na AWS, são otimizados para grandes volumes de dados não estruturados, oferecendo flexibilidade e alta performance em aplicações escaláveis.
+
+
+# -> VPC (Virtual Private Cloud) 
+
+    + Rede isolada na AWS para hospedar recursos, com controle total sobre o ambiente de rede.
+
+
+# -> CIDR (Classless Inter-Domain Routing) 
+
+    + Notação que define o intervalo de endereços IP disponíveis dentro de uma VPC.
+
+
+# -> Subnet Pública
+
+    + Sub-rede que permite comunicação direta com a internet, geralmente configurada com uma gateway de Internet.
