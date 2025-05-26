@@ -252,3 +252,46 @@ Best Practices for building solutions on AWS
 # -> Subnet Pública
 
     + Sub-rede que permite comunicação direta com a internet, geralmente configurada com uma gateway de Internet.
+
+
+
+# -> VPC Peering
+
+    + Conecta duas VPCs para permitir o tráfego privado entre elas usando endereços IP internos.
+    + Não utiliza internet nem gateways, garantindo segurança e baixa latência.
+    + Ideal para comunicação entre VPCs na mesma ou em diferentes regiões (com algumas restrições).
+
+
+# -> AWS VPN Site-to-Site
+
+    + Estabelece uma conexão segura entre a rede local (on-premises) e a VPC da AWS via internet.
+    + Usa IPsec para criptografar o tráfego, garantindo privacidade e integridade dos dados.
+    + É uma solução rápida e flexível para integração com a nuvem.
+
+
+# -> AWS Direct Connect
+
+    + Oferece uma conexão de rede dedicada entre o datacenter local e a AWS, sem passar pela internet.
+    + Garante maior largura de banda, menor latência e mais estabilidade.
+    + Ideal para cargas de trabalho sensíveis ou com alto volume de dados.
+
+
+# -> IAM Groups
+
+    + Permite agrupar usuários do IAM para gerenciar permissões de forma centralizada.
+    + Facilita a aplicação de políticas comuns a vários usuários ao mesmo tempo.
+    + Não concede permissões diretamente — elas vêm das políticas associadas ao grupo.
+
+
+# -> Roles – AWS STS (Security Token Service)
+
+    + Roles são identidades temporárias que concedem permissões a usuários, serviços ou contas confiáveis.
+    + Usadas com o AWS STS para fornecer credenciais temporárias e seguras.
+    + Essencial para acesso federado, cross-account ou serviços internos da AWS.
+
+
+# -> AWS Cognito
+
+    + Serviço de autenticação e gerenciamento de usuários para apps web e mobile.
+    + Permite login com provedores sociais (Google, Facebook) ou identidade própria.
+    + Gerencia tokens, senhas e sincronização de dados de forma segura e escalável.
