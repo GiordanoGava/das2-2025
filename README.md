@@ -295,3 +295,13 @@ Best Practices for building solutions on AWS
     + Serviço de autenticação e gerenciamento de usuários para apps web e mobile.
     + Permite login com provedores sociais (Google, Facebook) ou identidade própria.
     + Gerencia tokens, senhas e sincronização de dados de forma segura e escalável.
+
+
+# -> Criptografia Simétrica
+
+    + Usa a mesma chave para criptografar e descriptografar dados; é rápida e ideal para grandes volumes de informação.
+
+
+# -> Criptografia Assimétrica
+
+    + Utiliza um par de chaves (pública e privada); é mais segura para troca de chaves, mas mais lenta que a simétrica.
